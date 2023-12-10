@@ -2,11 +2,11 @@
 
 1. Docker Desktopをインストールする
 
-公式サイト：https://www.docker.com/products/docker-desktop/
+    公式サイト：https://www.docker.com/products/docker-desktop/
 
 2. ローカル環境に任意のプロジェクト用ディレクトリを作成する
 
-※以降では、「myapp」というプロジェクト用ディレクトリを作成したものとして説明する。
+    ※以降では、「myapp」というプロジェクト用ディレクトリを作成したものとして説明する。
 
 4. ターミナルを開いて上記ディレクトリに移動する
 
@@ -103,4 +103,4 @@ docker-compose run web rails db:create
 docker-compose exec web bundle exec rails db:migrate
 ```
 
-11. ブラウザでhttp://localhost:3000 にアクセスしてページが表示されるか確認する。
+11. ブラウザで`http://localhost:3000`にアクセスしてページが表示されるか確認する。
